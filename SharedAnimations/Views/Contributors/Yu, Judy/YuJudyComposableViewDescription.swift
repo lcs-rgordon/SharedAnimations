@@ -44,7 +44,7 @@ struct YuJudyComposableViewDescription: View {
             
         }
         .padding()
-        .navigationTitle("My Composable View")
+        .navigationTitle("Yu, Judy")
         
     }
 }

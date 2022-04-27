@@ -44,7 +44,7 @@ struct HarringtonWillComposableViewDescription: View {
             
         }
         .padding()
-        .navigationTitle("My Composable View")
+        .navigationTitle("Harrington, Will")
         
     }
 }

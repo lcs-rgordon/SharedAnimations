@@ -44,7 +44,7 @@ struct TaoJoyceComposableViewDescription: View {
             
         }
         .padding()
-        .navigationTitle("My Composable View")
+        .navigationTitle("Tao, Joyce")
         
     }
 }
