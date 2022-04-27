@@ -14,6 +14,8 @@
 		817B36A82819500900353DED /* SimpleListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817B36A72819500900353DED /* SimpleListItemView.swift */; };
 		817B36AE2819514300353DED /* TaoJoyceComposableViewDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817B36AC281950E400353DED /* TaoJoyceComposableViewDescription.swift */; };
 		817B36AF2819514300353DED /* TaoJoyceComposableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817B36AD281950E400353DED /* TaoJoyceComposableView.swift */; };
+		817B36B32819529800353DED /* HarringtonWillComposableViewDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817B36B12819522A00353DED /* HarringtonWillComposableViewDescription.swift */; };
+		817B36B42819529800353DED /* HarringtonWillComposableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817B36B22819526000353DED /* HarringtonWillComposableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		817B36A72819500900353DED /* SimpleListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleListItemView.swift; sourceTree = "<group>"; };
 		817B36AC281950E400353DED /* TaoJoyceComposableViewDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaoJoyceComposableViewDescription.swift; sourceTree = "<group>"; };
 		817B36AD281950E400353DED /* TaoJoyceComposableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaoJoyceComposableView.swift; sourceTree = "<group>"; };
+		817B36B12819522A00353DED /* HarringtonWillComposableViewDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarringtonWillComposableViewDescription.swift; sourceTree = "<group>"; };
+		817B36B22819526000353DED /* HarringtonWillComposableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarringtonWillComposableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,7 @@
 		817B36AA281950B800353DED /* Students */ = {
 			isa = PBXGroup;
 			children = (
+				817B36B0281951F000353DED /* Harrington, Will */,
 				817B36AB281950CB00353DED /* Tao, Joyce */,
 			);
 			path = Students;
@@ -114,6 +119,15 @@
 				817B36AD281950E400353DED /* TaoJoyceComposableView.swift */,
 			);
 			path = "Tao, Joyce";
+			sourceTree = "<group>";
+		};
+		817B36B0281951F000353DED /* Harrington, Will */ = {
+			isa = PBXGroup;
+			children = (
+				817B36B12819522A00353DED /* HarringtonWillComposableViewDescription.swift */,
+				817B36B22819526000353DED /* HarringtonWillComposableView.swift */,
+			);
+			path = "Harrington, Will";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +200,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				817B36B32819529800353DED /* HarringtonWillComposableViewDescription.swift in Sources */,
+				817B36B42819529800353DED /* HarringtonWillComposableView.swift in Sources */,
 				817B36AE2819514300353DED /* TaoJoyceComposableViewDescription.swift in Sources */,
 				817B36AF2819514300353DED /* TaoJoyceComposableView.swift in Sources */,
 				817B369A28194F2600353DED /* ContentView.swift in Sources */,

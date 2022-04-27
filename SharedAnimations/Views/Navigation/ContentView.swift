@@ -26,12 +26,12 @@ struct ContentView: View {
 
                 }
                 
-                Section(header: Text("Freestyle")) {
+                Section(header: Text("Buttons")) {
                     
-                    NavigationLink(destination: EmptyView()) {
+                    NavigationLink(destination: HarringtonWillComposableViewDescription()) {
                         
-                        SimpleListItemView(title: "Lu, Leo",
-                                           caption: "Robot bounces around the screen")
+                        SimpleListItemView(title: "Harrington, Will",
+                                           caption: "Thumbs up icon floats up on tap")
 
                     }
 
