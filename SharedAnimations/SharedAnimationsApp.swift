@@ -11,7 +11,11 @@ import SwiftUI
 struct SharedAnimationsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                
+                ContentView()
+                
+            }
         }
     }
 }
