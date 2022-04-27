@@ -18,6 +18,8 @@
 		817B36B42819529800353DED /* HarringtonWillComposableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817B36B22819526000353DED /* HarringtonWillComposableView.swift */; };
 		817B36B82819537F00353DED /* YuJudyComposableViewDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817B36B72819532E00353DED /* YuJudyComposableViewDescription.swift */; };
 		817B36B92819537F00353DED /* YuJudyComposableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817B36B62819532E00353DED /* YuJudyComposableView.swift */; };
+		817B36BD281954C800353DED /* GordonRussellComposableViewDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817B36BB2819547700353DED /* GordonRussellComposableViewDescription.swift */; };
+		817B36BE281954C800353DED /* GordonRussellComposableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817B36BC2819547700353DED /* GordonRussellComposableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		817B36B22819526000353DED /* HarringtonWillComposableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarringtonWillComposableView.swift; sourceTree = "<group>"; };
 		817B36B62819532E00353DED /* YuJudyComposableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YuJudyComposableView.swift; sourceTree = "<group>"; };
 		817B36B72819532E00353DED /* YuJudyComposableViewDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YuJudyComposableViewDescription.swift; sourceTree = "<group>"; };
+		817B36BB2819547700353DED /* GordonRussellComposableViewDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GordonRussellComposableViewDescription.swift; sourceTree = "<group>"; };
+		817B36BC2819547700353DED /* GordonRussellComposableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GordonRussellComposableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +90,7 @@
 			children = (
 				817B36A628194FFC00353DED /* Helpers */,
 				817B36A9281950A700353DED /* Navigation */,
-				817B36AA281950B800353DED /* Students */,
+				817B36AA281950B800353DED /* Contributors */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -107,14 +111,15 @@
 			path = Navigation;
 			sourceTree = "<group>";
 		};
-		817B36AA281950B800353DED /* Students */ = {
+		817B36AA281950B800353DED /* Contributors */ = {
 			isa = PBXGroup;
 			children = (
+				817B36BA2819546800353DED /* Gordon, Russell */,
 				817B36B0281951F000353DED /* Harrington, Will */,
 				817B36AB281950CB00353DED /* Tao, Joyce */,
 				817B36B52819531A00353DED /* Yu, Judy */,
 			);
-			path = Students;
+			path = Contributors;
 			sourceTree = "<group>";
 		};
 		817B36AB281950CB00353DED /* Tao, Joyce */ = {
@@ -142,6 +147,15 @@
 				817B36B62819532E00353DED /* YuJudyComposableView.swift */,
 			);
 			path = "Yu, Judy";
+			sourceTree = "<group>";
+		};
+		817B36BA2819546800353DED /* Gordon, Russell */ = {
+			isa = PBXGroup;
+			children = (
+				817B36BB2819547700353DED /* GordonRussellComposableViewDescription.swift */,
+				817B36BC2819547700353DED /* GordonRussellComposableView.swift */,
+			);
+			path = "Gordon, Russell";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +228,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				817B36BD281954C800353DED /* GordonRussellComposableViewDescription.swift in Sources */,
+				817B36BE281954C800353DED /* GordonRussellComposableView.swift in Sources */,
 				817B36B82819537F00353DED /* YuJudyComposableViewDescription.swift in Sources */,
 				817B36B92819537F00353DED /* YuJudyComposableView.swift in Sources */,
 				817B36B32819529800353DED /* HarringtonWillComposableViewDescription.swift in Sources */,

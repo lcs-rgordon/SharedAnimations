@@ -47,6 +47,18 @@ struct ContentView: View {
                     }
 
                 }
+                
+                Section(header: Text("Progress Meters")) {
+                    
+                    NavigationLink(destination: GordonRussellComposableViewDescription()) {
+                        
+                        SimpleListItemView(title: "Gordon, Russell",
+                                           caption: "Simple progress meter expands left to right")
+
+                    }
+
+                }
+
                                 
             }
             .listStyle(GroupedListStyle())
