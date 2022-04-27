@@ -14,17 +14,6 @@ struct ContentView: View {
         VStack {
             
             List {
-
-                Section(header: Text("Objects")) {
-
-                    NavigationLink(destination: TaoJoyceComposableViewDescription()) {
-                        
-                        SimpleListItemView(title: "Tao, Joyce",
-                                           caption: "Car moves from left to right")
-
-                    }
-
-                }
                 
                 Section(header: Text("Buttons")) {
                     
@@ -36,7 +25,29 @@ struct ContentView: View {
                     }
 
                 }
-                
+
+                Section(header: Text("Loading Indicators")) {
+                    
+                    NavigationLink(destination: YuJudyComposableViewDescription()) {
+                        
+                        SimpleListItemView(title: "Yu, Judy",
+                                           caption: "Four circles expand and rotate")
+
+                    }
+
+                }
+
+                Section(header: Text("Objects")) {
+
+                    NavigationLink(destination: TaoJoyceComposableViewDescription()) {
+                        
+                        SimpleListItemView(title: "Tao, Joyce",
+                                           caption: "Car moves from left to right")
+
+                    }
+
+                }
+                                
             }
             .listStyle(GroupedListStyle())
 
