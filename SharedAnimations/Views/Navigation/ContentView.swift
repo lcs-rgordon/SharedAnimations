@@ -17,7 +17,7 @@ struct ContentView: View {
 
                 Section(header: Text("Objects")) {
 
-                    NavigationLink(destination: EmptyView()) {
+                    NavigationLink(destination: TaoJoyceComposableViewDescription()) {
                         
                         SimpleListItemView(title: "Tao, Joyce",
                                            caption: "Car moves from left to right")

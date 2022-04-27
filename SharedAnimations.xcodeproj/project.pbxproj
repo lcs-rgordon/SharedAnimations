@@ -12,6 +12,8 @@
 		817B369C28194F2600353DED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 817B369B28194F2600353DED /* Assets.xcassets */; };
 		817B369F28194F2600353DED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 817B369E28194F2600353DED /* Preview Assets.xcassets */; };
 		817B36A82819500900353DED /* SimpleListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817B36A72819500900353DED /* SimpleListItemView.swift */; };
+		817B36AE2819514300353DED /* TaoJoyceComposableViewDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817B36AC281950E400353DED /* TaoJoyceComposableViewDescription.swift */; };
+		817B36AF2819514300353DED /* TaoJoyceComposableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817B36AD281950E400353DED /* TaoJoyceComposableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		817B369B28194F2600353DED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		817B369E28194F2600353DED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		817B36A72819500900353DED /* SimpleListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleListItemView.swift; sourceTree = "<group>"; };
+		817B36AC281950E400353DED /* TaoJoyceComposableViewDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaoJoyceComposableViewDescription.swift; sourceTree = "<group>"; };
+		817B36AD281950E400353DED /* TaoJoyceComposableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaoJoyceComposableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				817B36A628194FFC00353DED /* Helpers */,
-				817B369928194F2600353DED /* ContentView.swift */,
+				817B36A9281950A700353DED /* Navigation */,
+				817B36AA281950B800353DED /* Students */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -84,6 +89,31 @@
 				817B36A72819500900353DED /* SimpleListItemView.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		817B36A9281950A700353DED /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				817B369928194F2600353DED /* ContentView.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		817B36AA281950B800353DED /* Students */ = {
+			isa = PBXGroup;
+			children = (
+				817B36AB281950CB00353DED /* Tao, Joyce */,
+			);
+			path = Students;
+			sourceTree = "<group>";
+		};
+		817B36AB281950CB00353DED /* Tao, Joyce */ = {
+			isa = PBXGroup;
+			children = (
+				817B36AC281950E400353DED /* TaoJoyceComposableViewDescription.swift */,
+				817B36AD281950E400353DED /* TaoJoyceComposableView.swift */,
+			);
+			path = "Tao, Joyce";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +186,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				817B36AE2819514300353DED /* TaoJoyceComposableViewDescription.swift in Sources */,
+				817B36AF2819514300353DED /* TaoJoyceComposableView.swift in Sources */,
 				817B369A28194F2600353DED /* ContentView.swift in Sources */,
 				817B369828194F2600353DED /* SharedAnimationsApp.swift in Sources */,
 				817B36A82819500900353DED /* SimpleListItemView.swift in Sources */,
